@@ -1,0 +1,175 @@
+.sec_1 {
+    height: 100vh;
+    /* border: 1px solid #333; */
+    box-sizing: border-box;
+}
+
+.sec_1_imgbox {
+    position: relative;
+}
+
+.sec_1 img {
+    position: absolute;
+}
+
+.sec_1_main_img {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 23;
+    top: 0;
+    left: 0;
+}
+
+.blackbox {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 888;
+}
+
+
+/* .sec_1_container {
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    z-index: 88;
+} */
+
+.sec_1_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sec_1_main {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    z-index: 999;
+    transform: translateY(-50%);
+}
+
+/* main_1 */
+.main_1, .main_2, .main_3 {
+    position: absolute;
+    left: 44%;
+}
+
+.main_1 p:nth-child(2),
+.main_2 p:nth-child(2),
+.main_3 p:nth-child(2) {
+    margin: 15px 0 15px 0px;
+}
+
+.main_1 p:nth-child(2) {
+    margin-left: 77px;
+}
+/* main_1 */
+
+/* main_2 */
+.main_2 p:nth-child(1) {
+    margin-left: 20px;
+}
+
+.main_2 p:nth-child(2) {
+    margin-left: -75px;
+}
+
+.main_2 p:nth-child(3) {
+    margin-left: -20px;
+}
+/* main_2 */
+
+/* main_3 */
+.main_3 p:nth-child(1) {
+    margin-left: 60px;
+}
+
+.main_3 p:nth-child(2) {
+    margin-left: 20px;
+}
+
+.main_3 p:nth-child(3) {
+    margin-left: 110px;
+}
+/* main_3 */
+
+/* .main_2, .main_3 {
+    display: none;
+} */
+
+/* .sec_1_mainimg_3, .sec_1_mainimg_1 {
+    display: none;
+} */
+
+
+/* rev box */
+
+.rev_box {
+    width: 50%;
+    height: 9.3%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 777;
+}
+
+.rev_left {
+    width: 80%;
+    height: 100%;
+    padding: 20px 2.6%;
+    box-sizing: border-box;
+}
+
+.rev_gnb {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rev {
+    width: 20%;
+    text-align: center;
+}
+
+.check {
+    width: 35%;
+    text-align: center;
+}
+
+.rev_room, .adult, .child {
+    width: 10%;
+    text-align: center;
+}
+
+.rev_gnb_top {
+    margin-bottom: 18px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.rev_gnb_bot {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rev_right {
+    width: 20%;
+    line-height: 85px;
+    text-align: center;
+    background-color: #2E2A2B;
+}
+
+.rev_right a {
+    color: #fff;
+    font-size: 18px;
+}

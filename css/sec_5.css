@@ -1,0 +1,90 @@
+.sec_5 {
+    height: 970px;
+    padding: 7% 7% 7% 13%;
+    box-sizing: border-box;
+}
+
+.sec_5_container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sec_5_left {
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+
+.attr_text {
+    margin-top: 60px;
+    font-size: 24px;
+    line-height: 60px;
+    width: 48%;
+}
+
+.sec_5_right {
+    width: 62%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.attr_box {
+    width: 49%;
+    position: relative;
+}
+
+.attr_box_3, .attr_box_4 {
+    margin-top: 2%;
+}
+
+.hover_box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: .6s;
+}
+
+.hover_text {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+}
+
+.hover_title {
+    font-size: 24px;
+    margin-bottom: 2.5%;
+}
+
+.hover_sub {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.attr_box_1:hover .hover_box_1 {
+    opacity: 1;
+    z-index: 999;
+}
+
+.attr_box_2:hover .hover_box_2 {
+    opacity: 1;
+    z-index: 999;
+}
+
+.attr_box_3:hover .hover_box_3 {
+    opacity: 1;
+    z-index: 999;
+}
+
+.attr_box_4:hover .hover_box_4 {
+    opacity: 1;
+    z-index: 999;
+}
+

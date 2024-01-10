@@ -1,0 +1,101 @@
+.sec_2 {
+    width: 100%;
+    height: 880px;
+    padding: 7% 13%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sec_2_title {
+    width: 30%;
+    margin: 0 auto 80px auto;
+}
+
+.sec_2_main {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sec_2_sub {
+    justify-content: space-between;
+    font-size: 26px;
+    text-align: center;
+}
+/* sec_2_title */
+
+/* .sec_2_container {
+    width: 100%;
+    height: 70.5%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+} */
+
+/* .swiper {
+    width: 200%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.swiper-wrapper .swiper-slide {
+    display: flex;
+    width: 100%;
+} */
+
+/* .imgbox {
+    width: 100%;
+    height: 70%;
+} */
+
+/* .imgbox img {
+    width: 100%;
+    height: 100%;
+} */
+
+/* sec_2_box */
+
+.offer_event {
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.offer_date {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.offer_price {
+    font-size: 18px;
+}
+
+.offer_event, .offer_date, .offer_price {
+    margin-left: 2px;
+} 
+
+
+/*sec_2 btn */
+
+.swiper-button-next, .swiper-button-prev {
+    width: 18px;
+    height: 30px;
+    position: absolute;
+    top: 53%;
+    cursor: pointer;
+} 
+
+
+
+.offer_next {
+    right: 30px;
+}
+
+
+
+
+
+

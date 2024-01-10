@@ -1,0 +1,61 @@
+@import url(common.css);
+@import url(reset.css);
+@import url(sec_1.css);
+@import url(sec_2.css);
+@import url(sec_3.css);
+@import url(sec_4.css);
+@import url(sec_5.css);
+@import url(sec_6.css);
+@import url(footer.css);
+/* import */
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    height: 100px;
+    /* background-color: #333; */
+    /* filter: grayscale(1) opacity(0.4); */
+    padding: 0 7.8%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    transition: .5s;
+}
+
+.title a h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.title a h5 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+
+.header_rev a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+header, section, footer {
+    width: 100%;
+    padding: 0 7.8%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.sec_1 {
+    padding: 0;
+}

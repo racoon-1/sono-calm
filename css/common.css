@@ -1,0 +1,33 @@
+.mo {
+    display: none;
+}
+
+.main_title {
+    font-size: 60px;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: 500;
+}
+
+.title a h2, .title a h5, .rev_gnb, .sec_2_sub, .inner_main, .roomtitle, .box_main, .sec_6_main,
+.copy, .familysite, .room_tab, .brand, .family, .offer_event{
+    font-family: 'PT Serif', sans-serif;
+}
+
+.rev_right a, .inner_date, .inner_price, .sec_3_sub, .room_sub, .box_sub, .attr_text, .sec_6_sub
+, .footer_info, .footer_top, .offer_date, .offer_price {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* text */
+
+.wrap {
+    width: 100%;
+}
+
+header {
+    position: relative;
+    z-index: 5;
+}
+
+
+
